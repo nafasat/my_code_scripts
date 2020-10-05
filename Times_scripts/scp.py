@@ -20,8 +20,4 @@ class Base:
 
 
 a = Base()
-a.remote_copy('172.29.145.252', 'nafasat.ahmed', '/var/lib/nginx/state/backend*189.209.154.98.conf', '/tmp/1234')
-#if a.remote_copy('172.29.145.252', 'nafasat.ahmed', '/var/lib/nginx/state/backend*189.209.154.98.conf', '/tmp/1234'):
-#    print("success")
-#else:
-#    print("Failed")
+a.remote_copy('172.29.145.252', 'UserName', '/var/lib/nginx/state/backend*VIP.conf', '/tmp/1234')
