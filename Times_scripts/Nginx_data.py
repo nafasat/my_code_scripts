@@ -25,6 +25,6 @@ session = requests.Session()
 # first check page without auth
 #response = debug_get(session, url_login)  # failed as expected with .htaccess
 # provide credentials to pass .htacess is OK
-response = debug_get(session, 'http://10.64.50.252:8080/dashboard.html#upstreams', auth=('puneet.kumar', 'clearsky33we'))
+response = debug_get(session, 'http://10.64.50.252:8080/dashboard.html#upstreams', auth=('UserName', 'Password'))
 # retry again to authenticate to the regular web app fails...
 #response = debug_get(session, url_login, auth=(USER, PASSW))
