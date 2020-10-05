@@ -10,8 +10,8 @@ def SSH_Command(Input_IP):
     import paramiko
     hostname = '172.29.145.252'
     port = 22
-    username = 'nafasat.ahmed'
-    password = 'king@321'
+    username = 'UserName'
+    password = 'Password'
     command = "if [ -f /var/lib/nginx/state/backend"+Input_IP+".conf ]; then cat /var/lib/nginx/state/backend"+Input_IP+".conf; fi"
 
     ssh = paramiko.SSHClient()
